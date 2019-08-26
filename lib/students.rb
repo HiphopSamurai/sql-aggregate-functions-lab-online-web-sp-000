@@ -5,6 +5,7 @@ def highest_student_gpa
 end
 
 def lowest_student_gpa
+  "select * from students order by gba desc 1;"
 end
 
 def average_student_gpa
