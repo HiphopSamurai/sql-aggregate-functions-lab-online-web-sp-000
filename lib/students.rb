@@ -1,11 +1,11 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
-  "select * from students order by gba asc 1;"
+  "select max(gba) from students;"
 end
 
 def lowest_student_gpa
-  "select * from students order by gba desc 1;"
+  "select min(gba) from students;"
 end
 
 def average_student_gpa
